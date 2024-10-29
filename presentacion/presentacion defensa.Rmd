@@ -3,7 +3,7 @@ title: "Paradatos y calidad de información recolectada en estadísticas oficial
 subtitle: "Aplicaciones dentro de II ENUT"  
 author: 
   - "Joaquín E. Galdames Hernández"
-date: '18 de Julio de 2024'
+date: '29 de Noviembre de 2024'
 output:
   xaringan::moon_reader:
     css: "xaringan-themer.css"
