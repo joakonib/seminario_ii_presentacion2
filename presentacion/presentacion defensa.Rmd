@@ -215,7 +215,38 @@ test_data %>%
 ]
 ]
 
+---
 
+class: inverse, middle
+
+<br>
+<br>
+
+`r fontawesome::fa("bar-chart", height = "3em", fill = "white")`
+
+# Primeros Resultados
+
+.panelset[
+.panel[.panel-name[Uso del Botón en CH]
+
+
+```{r ciro-image, out.width='70%', echo = F, fig.align='center'}
+knitr::include_graphics("https://raw.githubusercontent.com/joakonib/presentacion/main/input/plots/uso%20del%20boton%20ch.png")
+```
+
+]
+.panel[.panel-name[Plan Procesamiento y Análisis]
+
+#### <span style="color: #43418A;">Fase 1: Limpieza y preparación de la base de datos</span>
+#### <span style="color: #43418A;">Fase 2: Análisis de consistencia y exploración de los datos</span>
+#### <span style="color: #43418A;">Fase 3: Obtener tiempos y enriquecer información (WIP)</span>
+#### <span style="color: #43418A;">Fase 4: Diagramar flujos de respuesta</span>
+#### <span style="color: #43418A;">Fase 5: Redacción de Análisis y conclusiones (WIP)</span>
+#### <span style="color: #43418A;">Fase 6: Anonimización y resguardo de la información levantada</span>
+
+
+]
+]
 
 
 ---
