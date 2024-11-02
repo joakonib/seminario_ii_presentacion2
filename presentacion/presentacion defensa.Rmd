@@ -3,7 +3,7 @@ title: "Paradatos y calidad de información recolectada en estadísticas oficial
 subtitle: "Aplicaciones dentro de II ENUT"  
 author: 
   - "Joaquín E. Galdames Hernández"
-date: '29 de Noviembre de 2024'
+date: '29 de Octubre de 2024'
 output:
   xaringan::moon_reader:
     css: "xaringan-themer.css"
@@ -226,24 +226,33 @@ class: inverse, middle
 
 # Primeros Resultados
 
+---
 .panelset[
 .panel[.panel-name[Uso del Botón en CH]
 
 
-```{r ciro-image, out.width='70%', echo = F, fig.align='center'}
-knitr::include_graphics("https://raw.githubusercontent.com/joakonib/presentacion/main/input/plots/uso%20del%20boton%20ch.png")
+```{r boton-ch, out.width='65%', echo = F, fig.align='center'}
+knitr::include_graphics("https://github.com/joakonib/seminario_ii_presentacion2/blob/main/input/plots/uso_del_boton_ch.png?raw=true")
 ```
 
 ]
-.panel[.panel-name[Plan Procesamiento y Análisis]
+.panel[.panel-name[Uso del Botón en CUT]
 
-#### <span style="color: #43418A;">Fase 1: Limpieza y preparación de la base de datos</span>
-#### <span style="color: #43418A;">Fase 2: Análisis de consistencia y exploración de los datos</span>
-#### <span style="color: #43418A;">Fase 3: Obtener tiempos y enriquecer información (WIP)</span>
-#### <span style="color: #43418A;">Fase 4: Diagramar flujos de respuesta</span>
-#### <span style="color: #43418A;">Fase 5: Redacción de Análisis y conclusiones (WIP)</span>
-#### <span style="color: #43418A;">Fase 6: Anonimización y resguardo de la información levantada</span>
+```{r boton-cut, out.width='65%', echo = F, fig.align='center'}
+knitr::include_graphics("https://github.com/joakonib/seminario_ii_presentacion2/blob/main/input/plots/uso_del_boton_cut.png?raw=true")
+```
 
+]
+.panel[.panel-name[Distribución Tiempos CH]
+```{r tiempo-ch, out.width='65%', echo = F, fig.align='center'}
+knitr::include_graphics("https://github.com/joakonib/seminario_ii_presentacion2/blob/main/input/plots/duracion_minutos_ch.png?raw=true")
+```
+
+]
+.panel[.panel-name[Distribución Tiempos CUT]
+```{r tiempo-cut, out.width='65%', echo = F, fig.align='center'}
+knitr::include_graphics("https://github.com/joakonib/seminario_ii_presentacion2/blob/main/input/plots/duracion_minutos_cut.png?raw=true")
+```
 
 ]
 ]
